@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+    <table>
+        <tr>
+            <td>
+                <input type="text" id="enter" readonly placeholder="0">
+                <input type="text" id="answer" readonly style="color:teal;">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="button" value="-" onclick="getOperantors('-')">
+                <input type="button" value="*" onclick="getOperantors('*')">
+                <input type="button" value="/" onclick="getOperantors('/')">
+                <br>
+                <input type="button" value="1" onclick="getNumber(1)">
+                <input type="button" value="2" onclick="getNumber(2)">
+                <input type="button" value="3" onclick="getNumber(3)">
+                <br>
+                <input type="button" value="4" onclick="getNumber(4)">
+                <input type="button" value="5" onclick="getNumber(5)">
+                <input type="button" value="6" onclick="getNumber(6)">
+                <br >
+                <input type="button" value="7" onclick="getNumber(7)">
+                <input type="button" value="8" onclick="getNumber(8)">
+                <input type="button" value="9" onclick="getNumber(9)">
+                <br>
+                <input type="button" value="CE" onclick="clearScreen()">
+                <input type="button" value="+" onclick="getOperantors('+')">
+                <input type="button" value="0" onclick="getNumber(0)">
+                <input type="button" value="=" style="width:100%;" onclick="calculate()">
+            </td>
+        </tr>
+    </table>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

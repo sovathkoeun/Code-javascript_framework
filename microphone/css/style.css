@@ -1,0 +1,25 @@
+body{
+    font-family: sans-serif;
+}
+#result {
+    margin: 0  auto;
+    height: 250px;
+    width: 90%;
+    border: 1px solid;
+    font-size: 15px;
+    line-height: 25px;
+    padding: 25px;
+}
+button{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: green;
+    position: absolute;
+    margin-left: 45%;
+    top: 230px;
+}<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css'
+integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
